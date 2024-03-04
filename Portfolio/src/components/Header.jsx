@@ -20,14 +20,14 @@ function Header() {
         },
         {
             id: 1,
-            title: 'RESMUE'
+            title: 'RESUME'
         },
     ]
     return (
         <div className='flex items-center jsutify-between'>
             <div>
-                <h2 clasName='text-[24px] font-bold text-white'>Brian
-                    <span className='text-red-500'> Doherty </span></h2>
+                <h2 clasName='text-[24px] font-bold text-blue'>
+                    <span className='text-blue-500'></span> </h2>
             </div>
             <div className='hidden md:flex gap-4'>
                 {menuList.map((item) => (
