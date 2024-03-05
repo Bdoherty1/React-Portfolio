@@ -11,15 +11,18 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: workdaySchedule
+            src: workdaySchedule,
+            href: ''
         },
         {
             id: 2,
             src: randomMeme
+            
         },
         {
             id: 3,
-            src: invoiceGenerator
+            src: invoiceGenerator,
+            href: 'https://invoicinator-e5b9fce169c1.herokuapp.com/login#signup'
         },
         {
             id: 4,
@@ -29,7 +32,7 @@ const Portfolio = () => {
 
     return (
         <div name='portfolio' 
-        className='w-full text-white md:h-screen'
+        className='min-h-screen text-white max-w-screen-full from-slate-900 to-gray-600'
         >
             <div>
                 <div className='pb-8'>
@@ -47,8 +50,8 @@ const Portfolio = () => {
                             className='duration-200 ronded-md hover:scale-105'
                         />
                         <div className='flex items-center justify-center'>
-                            <button onclick="handleClick()" className='w-1/2 px-6 py-3 m-4 text-white duration-200 bg-blue-500 hover:scale-105'>Preview</button>
-                            <button onclick="handleClick()" className='w-1/2 px-6 py-3 m-4 text-white duration-200 bg-blue-500 hover:scale-105'>Code</button>
+                            <button className='w-1/2 px-6 py-3 m-4 text-white duration-200 bg-blue-500 hover:scale-105'>Preview</button>
+                            <button className='w-1/2 px-6 py-3 m-4 text-white duration-200 bg-blue-500 hover:scale-105'>Code</button>
                         </div>
                     </div>
                 ))

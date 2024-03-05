@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
-// import Resmue from './components/Resmue'
+import Experience from './components/Experience'
 
 // import Contact from './components/Contact'
 import SocialLinks from './components/SocialLinks'
@@ -18,6 +18,9 @@ function App() {
       <Hero />
       <About />
       <Portfolio />
+      
+      <Experience />
+      
       <SocialLinks />
     </div>
   )

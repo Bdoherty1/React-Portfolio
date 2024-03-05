@@ -16,12 +16,14 @@ function Header() {
         },
         {
             id: 1,
-            title: 'CONTACT'
+            title: 'RESUME'
         },
         {
             id: 1,
-            title: 'RESUME'
+            title: 'CONTACT'
+            
         },
+        
     ]
     return (
         <div className='flex items-center jsutify-between'>
@@ -37,9 +39,6 @@ function Header() {
                         text-[15px] px-3 py-1 cursor-pointer'>{item.title}</h2>
                     </div>
                 ))}
-                <h2 className='text-white
-                hover:border-[1px] border-red-500 rounded-full
-                text-[15px] px-3 py-1 cursor-pointer hover:bg-gradient-to-r from-red-500 to-red-800'>HIRE ME</h2>
             </div>
             
         </div>
