@@ -29,11 +29,11 @@ function Header() {
                 <h2 clasName='text-[24px] font-bold text-blue'>
                     <span className='text-blue-500'></span> </h2>
             </div>
-            <div className='hidden md:flex gap-4'>
+            <div className='hidden gap-4 md:flex'>
                 {menuList.map((item) => (
                     <div>
                         <h2 className='text-white
-                        hover:border-[1px] border-red-500 rounded-full
+                        hover:border-[1px] border-blue-500 rounded-full
                         text-[15px] px-3 py-1 cursor-pointer'>{item.title}</h2>
                     </div>
                 ))}
