@@ -1,4 +1,6 @@
 import React from 'react'
+import heroimg from '../assets/imgs/heroimg.jpg';
+
 
 function Hero() {
   return (
@@ -18,8 +20,10 @@ function Hero() {
 
       <div className='flex justify-center '>
         <div className='h-[320px] w-[250px] p-2 rounded-[20px] bg-gradient-to-bl from-slate-500 to-gray-100'>
-          <img src='../imgs/heroimg.jpg'
-            className='h-full w-[250px] object-cover rounded-[20px]'
+        <img
+            src={heroimg}
+            alt="my profile"
+            className="h-full w-[250px] object-cover rounded-[20px]"
           />
         </div>
       </div>
