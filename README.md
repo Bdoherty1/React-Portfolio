@@ -28,7 +28,8 @@ To start exploring my portfolio:
 - Netlify
 
 =
-
+## Future Dev
+- Working on deploying it on netlify
 
 ## Feedback
 
