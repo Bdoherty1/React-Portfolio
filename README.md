@@ -4,6 +4,10 @@
 
 Welcome to my React Portfolio! This portfolio showcases my skills and projects as a web developer, utilizing React and Vite for development and deployed on Netlify for accessibility.
 
+![image desc](./Public/landingpageSS.png)
+![image desc](./Public/aboutSS.png)
+![image desc](./Public/projectsSS.png)
+![image desc](./Public/contactSS.png)
 ## Features
 
 - **Responsive Design**: Mobile-first design approach ensures optimal viewing experience across devices.
@@ -28,6 +32,9 @@ To start exploring my portfolio:
 - Netlify
 
 =
+
+
+
 ## Future Dev
 - Working on deploying it on netlify
 
