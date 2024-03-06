@@ -21,22 +21,23 @@ const Experience = () => {
       },
       {
         id: 2,
-        src: css,
-        title: "CSS",
-        style: "shadow-blue-500",
-      },
-      {
-        id: 3,
         src: javascript,
         title: "JavaScript",
         style: "shadow-yellow-500",
       },
       {
-        id: 4,
+        id: 3,
         src: reactImage,
         title: "React",
         style: "shadow-blue-600",
       },
+      {
+        id: 4,
+        src: css,
+        title: "CSS",
+        style: "shadow-blue-500",
+      },
+      
       {
         id: 5,
         src: tailwind,
@@ -57,22 +58,22 @@ const Experience = () => {
       },
       {
         id: 8,
-        src: github,
-        title: "GitHub",
-        style: "shadow-gray-400",
-      },
-      {
-        id: 8,
         src: mysql,
         title: "MYSQL",
-        style: "shadow-gray-400",
+        style: "shadow-blue-600",
+      },
+      {
+        id: 9,
+        src: github,
+        title: "GitHub",
+        style: "shadow-white",
       },
     ];
 
 return (
     <div
       name="experience"
-      className="min-h-screen py-6 max-w-screen-full"
+      className="min-h-screen py-20 max-w-screen-full"
     >
       <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto text-white">
         <div>
