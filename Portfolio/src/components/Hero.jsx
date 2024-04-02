@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className='grid items-center grid-cols-1 pt-10 md:grid-cols-2'>
       <div className='py-10 mb-10'>
-        <p className='text-4xl font-bold text-white sm:text-7xl'>My Name Is Brian Doherty</p>
+        <p className='py-2 text-4xl font-bold text-white sm:text-7xl'>My Name Is Brian Doherty</p>
         <p className='text-4xl font-bold text-blue-500 sm:text-7x'>I'm Full Stack Developer</p>
         <p className='text-white text-[16px]'>I have experence building and desgining software. Currently i like to work on web aplicaion using technologies like React, Tailwind, Next JS, GraphQL</p>
         
