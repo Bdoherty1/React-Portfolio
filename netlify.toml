@@ -1,13 +1,13 @@
 [build]
   command = "npm run build"
-  publish = "Portfolio"
+  publish = "dist"
   publishOrigin = "default"  
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
+  
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
