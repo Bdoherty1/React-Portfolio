@@ -1,15 +1,15 @@
 [build]
+  base = "/"
   command = "npm run build"
-  publish = "portfolio/dist"
-  publishOrigin = "default"  
-
+  publish = "/dist"
+  
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
 [dev]
-    command = "yarn start"
+    command = "npm run start"
     port = 3000
     publish = "dist"
 
