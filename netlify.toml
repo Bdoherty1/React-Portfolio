@@ -9,9 +9,9 @@
   status = 200
 
 [dev]
-    command = "yarn start" # Command to start your dev server
-    port = 3000 # Port that the dev server will be listening on
-    publish = "dist" # Folder with the static content for _redirect file
+    command = "yarn start"
+    port = 3000
+    publish = "dist"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
